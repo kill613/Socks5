@@ -110,6 +110,7 @@ make install
 InstallPanel()
 {
 #cd  /root/Socks5
+mkdir /etc/opt/ss5/
 mv /root/Socks5/service.sh /etc/opt/ss5/
 mv /root/Socks5/user.sh /etc/opt/ss5/
 mv /root/Socks5/version.txt /etc/opt/ss5/
